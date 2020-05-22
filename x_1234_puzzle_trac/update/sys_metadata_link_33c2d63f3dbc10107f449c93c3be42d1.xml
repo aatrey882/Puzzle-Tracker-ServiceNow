@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6882963f3dbc10107f449c93c3be42b5</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1234_puzzle_trac_puzzle">
+    <x_1234_puzzle_trac_puzzle action="INSERT_OR_UPDATE">
+        <length>12345</length>
+        <name>K20: Indian Puzzle !!</name>
+        <number>PUZ0001001</number>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-22 16:14:29</sys_created_on>
+        <sys_id>6882963f3dbc10107f449c93c3be42b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-22 16:14:29</sys_updated_on>
+        <width>123123</width>
+    </x_1234_puzzle_trac_puzzle>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-22 16:15:20</sys_created_on>
+        <sys_id>33c2d63f3dbc10107f449c93c3be42d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>K20: Indian Puzzle !!</sys_name>
+        <sys_package display_value="Puzzle Tracker" source="x_1234_puzzle_trac">825d8dbb3d3c10107f449c93c3be42f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Puzzle Tracker">825d8dbb3d3c10107f449c93c3be42f9</sys_scope>
+        <sys_update_name>sys_metadata_link_33c2d63f3dbc10107f449c93c3be42d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-22 16:15:20</sys_updated_on>
+        <tablename>x_1234_puzzle_trac_puzzle</tablename>
+    </sys_metadata_link>
+</record_update>
