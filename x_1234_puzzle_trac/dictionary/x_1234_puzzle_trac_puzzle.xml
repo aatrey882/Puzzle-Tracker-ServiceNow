@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Puzzle" max_length="40" name="x_1234_puzzle_trac_puzzle" type="collection">
+        <element label="Length" max_length="15" name="length" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="125" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Width" max_length="15" name="width" type="decimal"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>

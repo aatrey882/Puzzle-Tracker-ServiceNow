@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>name</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-22 11:20:07</sys_created_on>
+        <sys_data_policy display_value="Sets the Name field to mandatory">df3f813f3d3c10107f449c93c3be4224</sys_data_policy>
+        <sys_id>133f813f3d3c10107f449c93c3be4227</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Puzzle Tracker" source="x_1234_puzzle_trac">825d8dbb3d3c10107f449c93c3be42f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Puzzle Tracker">825d8dbb3d3c10107f449c93c3be42f9</sys_scope>
+        <sys_update_name>sys_data_policy_rule_133f813f3d3c10107f449c93c3be4227</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-22 11:20:07</sys_updated_on>
+        <table>x_1234_puzzle_trac_puzzle</table>
+    </sys_data_policy_rule>
+</record_update>
