@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Convert inches to centimertes and vice versa.</description>
+        <field>units</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Dimension</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //cut the decimal value to 3
+    //adding logic for length
+    if (newValue == "cms") {
+        var cms = g_form.getValue("width") * 2.54;
+        g_form.setValue("width", cms.toFixed(3));
+        var cmsL = g_form.getValue("length") * 2.54;
+        g_form.setValue("length", cmsL.toFixed(3));
+
+    }
+    //cut the decimal value to 3
+    if (newValue == "ins") {
+        var ins = g_form.getValue("width") / 2.54;
+        g_form.setValue("width", ins.toFixed(3));
+        var insL = g_form.getValue("length") / 2.54;
+        g_form.setValue("length", insL.toFixed(3));
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-05-23 08:40:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee137dc82f095c10ac02a55df699b694</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Dimension</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Puzzle Tracker" source="x_1234_puzzle_trac">825d8dbb3d3c10107f449c93c3be42f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Puzzle Tracker">825d8dbb3d3c10107f449c93c3be42f9</sys_scope>
+        <sys_update_name>sys_script_client_ee137dc82f095c10ac02a55df699b694</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-23 09:51:36</sys_updated_on>
+        <table>x_1234_puzzle_trac_puzzle</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
